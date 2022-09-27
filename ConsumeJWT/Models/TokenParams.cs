@@ -12,7 +12,7 @@ namespace ConsumeJWT.Models
         [JsonProperty("phaseNo")]
         public string PhaseNo { get; set; } = string.Empty;
 
-        //[JsonProperty("entityID")]
-        //public string EntityID { get; set; } = string.Empty;
+        [JsonProperty("entityID")]
+        public string EntityID { get; set; } = string.Empty;
     }
 }

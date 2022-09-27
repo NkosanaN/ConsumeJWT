@@ -34,7 +34,7 @@ namespace ConsumeJWT.Controllers
                         }
                       
                        
-                        HttpContext.Session.SetString("JWToken", responseApi);
+                       // HttpContext.Session.SetString("JWToken", responseApi);
                     }
                 }
 
